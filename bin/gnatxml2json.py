@@ -24,8 +24,7 @@ function_spec_setfield_template = """   procedure Set_Field  (Val        : JSON_
 
 """
 function_spec_getfield_template = """   function Get (Val   : JSON_Value;
-                 Field : UTF8_String) return %(ty
-                                               pename)s;
+                 Field : UTF8_String) return %(typename)s;
 
 """
 function_spec_get_template = """   function Get (Val : GNATCOLL.JSON.JSON_Value) return %(typename)s;
